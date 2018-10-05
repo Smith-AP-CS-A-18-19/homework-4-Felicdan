@@ -1,9 +1,15 @@
+//Daniel Feliciano
 public class Homework4 {
 
 	/* Finish the constructor and create any necessary instance
 	 * variables
 	 */
+	 private int m;
+	 private String w;
+
 	public Homework4(String s, int i) {
+m = i;
+w = s;
 
 	}
 
@@ -11,7 +17,9 @@ public class Homework4 {
 	 * provided double. Cast the number after the
 	 * multiplication
 	 */
-	public int multiply(double d) {
+	public double multiply(double d) {
+		double product = m * d - .25;
+		return product;
 
 	}
 
@@ -19,20 +27,24 @@ public class Homework4 {
 	 * product by the stored number
 	 */
 	public double sumProduct(int a, double b) {
-
+		double sum = a + b;
+		double product = sum * m - 2.25;
+		return product;
 	}
 
 	/* Return the remainder of the first number divided by
 	 * the integer portion of the provided double
 	 */
 	 public int remainder(double d) {
-
+		 int remain = m % (int)d;
+		 return remain;
 	}
 
 	/* Return the length of the stored String
 	 */
 	public int getLength() {
-
+		int length = w.length();
+		return length;
 	}
 
 	/* Return the stored String followed by the provided
@@ -40,6 +52,8 @@ public class Homework4 {
 	 */
 	public String concat(String s) {
 
+		String d = w.replace(",","") + " " + s;
+		return d;
 	}
 
 	public static void main(String[] args) {
