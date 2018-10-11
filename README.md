@@ -8,3 +8,8 @@ This homework covers skills 2.2, 2.3, 2.4, 2.5, 2.7, and 2.8. You will most like
 
 ## As always...
 Make sure that you include your first and last name in the comment section at the very beginning of the Java file; if I cannot determine whose homework this is, I cannot give you credit.
+
+## Feedback
+Fail - 1
+9/10
+Well done, just a minor issue in the first method

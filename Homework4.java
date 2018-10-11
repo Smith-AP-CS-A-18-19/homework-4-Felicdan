@@ -18,6 +18,9 @@ w = s;
 	 * multiplication
 	 */
 	public double multiply(double d) {
+		/* Don't just subtract, instead cast to an int
+		 * Also, don't change return type of the method
+		 */
 		double product = m * d - .25;
 		return product;
 
